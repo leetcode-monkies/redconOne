@@ -13,7 +13,7 @@ jobs:
         uses: oven-sh/setup-bun@v1
 
       - name: Install dependencies
-        uses: bun Install
+        uses: bun install
 
       - name: Run test suites
         uses: bun test
