@@ -1,0 +1,19 @@
+{
+  "name": "redconone",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Pretend there is a well written description here.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Ming Lee Ng",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "chai": "^5.0.3",
+    "mocha": "^10.2.0"
+  }
+}
