@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import twoSum from "./../solutions/0001.js";
+import twoSum from "../solutions/0001";
 
 describe("Testing LC 0001", () => {
   it("test case 1", () => {

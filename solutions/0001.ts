@@ -4,7 +4,7 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order. */
 
-export default function twoSum(nums, target) {
+export default function twoSum(nums: number[], target: number): number[] {
   const dict = {};
 
   for (const [idx, num] of nums.entries())
