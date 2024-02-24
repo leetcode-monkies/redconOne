@@ -22,4 +22,11 @@ describe("Testing LC 0003", () => {
     const expected = 21;
     expect(result).to.equal(expected);
   });
+
+  it("test case 4", () => {
+    const testNum = 1534236469;
+    const result = reverse(testNum);
+    const expected = 0;
+    expect(result).to.equal(expected);
+  });
 });

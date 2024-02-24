@@ -9,5 +9,8 @@ export default function reverse(x: number): number {
     num = Math.floor(num / 10);
   }
 
-  return result * sign;
+  result *= sign;
+
+  if (result >= 2 ** 31 - 1 || result < -(2 ** 31)) return 0;
+  return result;
 }
