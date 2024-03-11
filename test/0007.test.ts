@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import reverse from "../solutions/0007";
+import reverse from "@solutions/0007";
 
 describe("Testing LC 0003", () => {
   it("test case 1", () => {
