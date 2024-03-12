@@ -5,12 +5,15 @@ on:
       - main
 
 jobs:
-  test:
-    name: Run Tests
+  bun_tests:
+    name: Bun Tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+
+      - name: Navigation
+        uses: cd typescript
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
@@ -20,3 +23,15 @@ jobs:
 
       - name: Run test suites
         run: bun test
+
+  go_tests:
+    name: Go Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run Go Tests
+        run: |
+          cd go
+          go test ./...
