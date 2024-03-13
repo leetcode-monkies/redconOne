@@ -12,8 +12,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Navigation
-        uses: cd typescript
+      - name: Navigation to typescript directory
+        run: cd typescript
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
