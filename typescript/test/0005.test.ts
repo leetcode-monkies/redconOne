@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import longestPalindrome from "../solutions/0005";
+import longestPalindrome from "@solutions/0005";
 
 describe("Testing LC 0005", () => {
   it("test case 1", () => {

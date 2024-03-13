@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@solutions/*": ["solutions/*"],
+      "@utils/*": ["utils/*"],
+    },
+  },
+}

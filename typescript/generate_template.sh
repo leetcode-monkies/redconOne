@@ -17,7 +17,7 @@ echo "export default function $funcName($params): $returnType {
 }" >"./solutions/$problemNumber.ts"
 
 echo "import { expect } from 'chai';
-import $funcName from '../solutions/$problemNumber';
+import $funcName from '@solutions/$problemNumber';
 
 describe('Testing LC $problemNumber', () => {
   it('test case 1', () => {

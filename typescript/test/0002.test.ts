@@ -1,6 +1,6 @@
 import { expect } from "chai";
-import ListNode from "../utils/ListNode";
-import addTwoNumbers from "../solutions/0002";
+import ListNode from "@utils/ListNode";
+import addTwoNumbers from "@solutions/0002";
 
 describe("Testing LC 0002", () => {
   it("test case 1", () => {

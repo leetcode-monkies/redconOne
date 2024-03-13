@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import lengthOfLongestSubstring from "../solutions/0003";
+import lengthOfLongestSubstring from "@solutions/0003";
 
 describe("Testing LC 0003", () => {
   it("test case 1", () => {

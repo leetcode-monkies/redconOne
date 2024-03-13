@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import myAtoi from "../solutions/0008";
+import myAtoi from "@solutions/0008";
 
 describe("Testing LC 0008", () => {
   it("test case 1", () => {
