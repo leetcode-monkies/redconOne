@@ -1,9 +1,6 @@
 package problem0012
 
-import "fmt"
-
 func intToRoman(num int) string {
-	fmt.Println("What?")
 	symbols := []string{
 		"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX",
 		"V", "IV", "I",
